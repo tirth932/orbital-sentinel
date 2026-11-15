@@ -1,0 +1,10 @@
+{
+  "id": "P-1",
+  "spacecraft": "SMAP",
+  "epochs_ran": 32,
+  "best_val_loss": 0.0072944915968747364,
+  "skipped": 0,
+  "threshold": 0.0926588416686718,
+  "n_flagged": 1,
+  "n_baseline": 42
+}

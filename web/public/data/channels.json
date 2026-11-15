@@ -1,0 +1,998 @@
+{
+  "is_sample": true,
+  "channels": [
+    {
+      "id": "P-1",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "P-2",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "P-3",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "P-4",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "P-5",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "P-6",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-7",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-8",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-9",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 0,
+      "n_missed": 2,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-10",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-11",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-12",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-13",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 0,
+      "n_missed": 2,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-14",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-15",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual",
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-16",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-17",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-18",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-19",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-20",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-21",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-22",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point",
+        "contextual"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-23",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 2,
+      "n_found": 1,
+      "n_missed": 1,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-24",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-25",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-26",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-27",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-28",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-29",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-30",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-31",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-32",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-33",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-34",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-35",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-36",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-37",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-38",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-39",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-40",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-41",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-42",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-43",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-44",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-45",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-46",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-47",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-48",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-49",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-50",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-51",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-52",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-53",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "P-54",
+      "spacecraft": "SMAP",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "P-55",
+      "spacecraft": "SMAP",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-1",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "M-2",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "M-3",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "M-4",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "M-5",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": true
+    },
+    {
+      "id": "M-6",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-7",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-8",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-9",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-10",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-11",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-12",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-13",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-14",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-15",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-16",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-17",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-18",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-19",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-20",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-21",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-22",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-23",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-24",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-25",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    },
+    {
+      "id": "M-26",
+      "spacecraft": "MSL",
+      "classes": [
+        "contextual"
+      ],
+      "n_anomalies": 1,
+      "n_found": 0,
+      "n_missed": 1,
+      "n_false_positives": 1,
+      "has_error_series": false
+    },
+    {
+      "id": "M-27",
+      "spacecraft": "MSL",
+      "classes": [
+        "point"
+      ],
+      "n_anomalies": 1,
+      "n_found": 1,
+      "n_missed": 0,
+      "n_false_positives": 0,
+      "has_error_series": false
+    }
+  ]
+}

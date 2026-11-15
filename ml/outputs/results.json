@@ -1,0 +1,118 @@
+{
+  "is_sample": false,
+  "partial": true,
+  "generated_at": "2026-11-14T13:11:14+00:00",
+  "git_commit": null,
+  "seed": 42,
+  "config": {
+    "window": 250,
+    "lstm_units": 80,
+    "layers": 2,
+    "dropout": 0.3,
+    "ewma_span": 30,
+    "prune_p": 0.13,
+    "baseline_sigma": 3.0,
+    "seed": 42
+  },
+  "counts": {
+    "channels": 1,
+    "anomalies": 3,
+    "smap_channels": 1,
+    "msl_channels": 0,
+    "point": 0,
+    "contextual": 3
+  },
+  "comparison_note": "On this run, LSTM recall did not exceed the z-score baseline. Event counts are reported without adjustment.",
+  "lstm": {
+    "overall": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 3
+    },
+    "spacecraft": {
+      "SMAP": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 3
+      },
+      "MSL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "class": {
+      "point": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0
+      },
+      "contextual": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 3
+      }
+    }
+  },
+  "baseline": {
+    "overall": {
+      "precision": 0.051282,
+      "recall": 0.666667,
+      "f1": 0.095238,
+      "tp": 2,
+      "fp": 37,
+      "fn": 1
+    },
+    "spacecraft": {
+      "SMAP": {
+        "precision": 0.051282,
+        "recall": 0.666667,
+        "f1": 0.095238,
+        "tp": 2,
+        "fp": 37,
+        "fn": 1
+      },
+      "MSL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "class": {
+      "point": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 37,
+        "fn": 0
+      },
+      "contextual": {
+        "precision": 0.051282,
+        "recall": 0.666667,
+        "f1": 0.095238,
+        "tp": 2,
+        "fp": 37,
+        "fn": 1
+      }
+    }
+  }
+}

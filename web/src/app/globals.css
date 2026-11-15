@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #05060a;
+  --color-cyan: #00e5ff;
+  --color-violet: #7c4dff;
+  --color-magenta: #ff2e93;
+  --color-amber: #ffb020;
+  --color-mint: #35f2a8;
+  --color-ink: #d7e7ea;
+  --color-muted: #8ea3ad;
+  --font-display: var(--font-space), sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+html {
+  background: #05060a;
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(124, 77, 255, 0.16), transparent 55%),
+    radial-gradient(900px 500px at -10% 20%, rgba(0, 229, 255, 0.08), transparent 50%),
+    #05060a;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: rgba(0, 229, 255, 0.28);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid #00e5ff;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 80;
+  background: #00e5ff;
+  color: #05060a;
+  padding: 0.5rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+section[id] {
+  scroll-margin-top: 6.5rem;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.035),
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.45;
+}
+
+.hud-frame {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 229, 255, 0.75),
+    rgba(124, 77, 255, 0.28) 42%,
+    rgba(255, 46, 147, 0.45)
+  );
+  padding: 1px;
+}
+
+.hud-panel {
+  position: relative;
+  background: linear-gradient(180deg, rgba(10, 16, 28, 0.82), rgba(5, 7, 12, 0.78));
+  backdrop-filter: blur(16px);
+  box-shadow: inset 0 0 40px rgba(0, 229, 255, 0.04);
+}
+
+.corner {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(0, 229, 255, 0.85);
+  pointer-events: none;
+}
+
+.corner-tl {
+  top: 8px;
+  left: 8px;
+  border-right: 0;
+  border-bottom: 0;
+}
+.corner-tr {
+  top: 8px;
+  right: 8px;
+  border-left: 0;
+  border-bottom: 0;
+}
+.corner-bl {
+  bottom: 8px;
+  left: 8px;
+  border-right: 0;
+  border-top: 0;
+}
+.corner-br {
+  right: 8px;
+  bottom: 8px;
+  border-left: 0;
+  border-top: 0;
+}
+
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.glitch::before {
+  color: #00e5ff;
+  transform: translate(1px, 0);
+  clip-path: inset(0 0 55% 0);
+  opacity: 0.7;
+}
+
+.glitch::after {
+  color: #ff2e93;
+  transform: translate(-1px, 0);
+  clip-path: inset(55% 0 0 0);
+  opacity: 0.7;
+}
+
+.caret {
+  display: inline-block;
+  width: 0.55ch;
+  height: 1em;
+  margin-left: 2px;
+  background: #00e5ff;
+  vertical-align: text-bottom;
+  animation: blink 1s steps(1) infinite;
+}
+
+.orbit-sat,
+.sat-parked {
+  --orbit: 5.25rem;
+}
+
+.orbit-sat {
+  animation: orbit 28s linear infinite;
+}
+
+.sat-parked {
+  transform: translateX(var(--orbit));
+}
+
+@media (min-width: 640px) {
+  .orbit-sat,
+  .sat-parked {
+    --orbit: 8.25rem;
+  }
+}
+
+.dust {
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(0, 229, 255, 0.8), transparent),
+    radial-gradient(1.5px 1.5px at 40% 80%, rgba(255, 255, 255, 0.45), transparent),
+    radial-gradient(1px 1px at 85% 20%, rgba(124, 77, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 10% 75%, rgba(255, 255, 255, 0.5), transparent);
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(var(--orbit)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--orbit)) rotate(-360deg);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scanlines,
+  .caret,
+  .orbit-sat,
+  .glitch::before,
+  .glitch::after {
+    animation: none;
+  }
+
+  .scanlines {
+    display: none;
+  }
+}
